@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>HTML FORMS</title>
+<style>
+      div{
+          background-color:orange;      	
+}
+     .pi{
+         color:white;
+}
+     .di{
+         color:white;
+}	
+</style>
+</head>
+<body>
+<div>
+<h1><span class="pi">Sign Up Form</span></h1>
+<form>
+
+<input type="text" placeholder="First name" required><br></br>
+
+<input type="text" placeholder="Last name" required><br></br>
+
+<input type="password" placeholder="Password" required><br></br>
+
+<input type="email" placeholder="Email" required><br></br>
+
+<p><span class="di">Select your gender</span></p>
+<label for="male"><span class="pi">Male</span></label>
+<input type="radio" name="gender" id="male" value=""><br />
+
+<label for="female"><span class="pi">Female</span></label>
+<input type="radio" name="gender" id="female" value=""><br />
+
+<label for="other"><span class="pi">Other</span></label>
+<input type="radio" name="gender" id="other" value="">
+
+<br />
+<br />
+<label for="country"><span class="pi">Country</span></label>
+<select name="" id="country">
+<option value="Pakistan">Pakistan</option>
+<option value="India">India</option>
+<option value="Bangladesh">Bangladesh</option>
+<option value="Australia">Australia</option>
+</select>
+<br><br/>
+<p><span class="pi">Write about yourself below</span></p>
+<textarea name="" id="" cols="30" rows="10" placeholder="type here"></textarea>
+
+<br>
+<input type="submit" value="submit">
+</form>
+</div>
+</body>
+</html>
